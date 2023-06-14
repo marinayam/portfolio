@@ -1,8 +1,10 @@
+import React from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
 import { CodeSlash } from "react-bootstrap-icons"
 import { LayoutTextWindow } from "react-bootstrap-icons"
+import './skills.css';
 
-export const Skills = () => {
+const Skills = () => {
   
   return (
   <section className="skill" id="skills">
@@ -50,4 +52,6 @@ export const Skills = () => {
     </Container>
   </section>
   )
-}
+};
+
+export default Skills;

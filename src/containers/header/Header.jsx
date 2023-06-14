@@ -1,9 +1,11 @@
+import React from 'react';
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap"
 import { ArrowRightCircle } from "react-bootstrap-icons"
-import headerImg from "../assets/img/header-img.svg"
+import headerImg from "../../assets/header-img.svg"
+import './header.css';
 
-export const Header = () => {
+  const Header = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
@@ -62,4 +64,6 @@ export const Header = () => {
       </Container>
     </section>
   )
-} 
+} ;
+
+export  default Header;

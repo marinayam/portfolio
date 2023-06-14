@@ -1,0 +1,74 @@
+.header {
+  margin-top: 0;
+  padding: 260px 0 100px 0;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background:-moz-radial-gradient(circle at 3% 25%, rgba(76, 175, 80, 1) 0%, rgba(8, 45, 53, 1) 100%);
+  background:-webkit-radial-gradient(circle at 3% 25%, rgba(76, 175, 80, 1) 0%, rgba(8, 45, 53, 1) 100%);
+  background:-o-radial-gradient(circle at 3% 25%, rgba(76, 175, 80, 1) 0%, rgba(8, 45, 53, 1) 100%);
+  background:-ms-radial-gradient(circle at 3% 25%, rgba(76, 175, 80, 1) 0%, rgba(8, 45, 53, 1) 100%);
+  background:radial-gradient(circle at 3% 25%, rgba(76, 175, 80, 1) 0%, rgba(8, 45, 53, 1) 100%);
+}
+
+.header .tagline {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  background: linear-gradient(90.21deg, rgba(106, 222, 18, 0.5) -5.91%, rgb(0, 97, 65) 111.58%);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+.header h1 {
+  font-size: 65px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+}
+.header p {
+  color: #efe9f2;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
+}
+.header button {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 60px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+}
+.header button svg {
+  font-size: 25px;
+  margin-left: 10px;
+  transition: 0.3s ease-in-out;
+  line-height: 1;
+}
+.header button:hover svg {
+  margin-left: 25px;
+}
+.header img {
+  animation: updown 3s linear infinite;
+}
+@keyframes updown {
+    0% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+.txt-rotate > .wrap {
+  border-right: 0.08em solid #666;
+}

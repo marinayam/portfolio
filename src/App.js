@@ -1,17 +1,16 @@
-import './App.css';
-import { NavBar } from './components/NavBar';
-import { Header } from './components/Header';
-import { Skills } from './components/Skills';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <NavBar />
-      <Header />
-      <Skills />
-    </div>
-  );
-}
+import { Header, Skills } from './containers';
+import { NavBar } from './components';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
+
+const App = () => (
+  <div className="App">
+    <NavBar />
+    <Header />
+    <Skills />
+  </div>
+);
 
 export default App;

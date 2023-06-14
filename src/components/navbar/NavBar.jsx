@@ -1,14 +1,12 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import {Navbar, Container, Nav } from 'react-bootstrap';
-import logo from '../assets/img/logo.svg'
-import githubIcon from '../assets/img/github-icon.svg'
+import logo from '../../assets/logo.svg'
+import githubIcon from '../../assets/github-icon.svg'
+import './navbar.css';
 
-
-
-export const NavBar = () => {
+  const NavBar = () => {
   const [activeLink, setActiveLink] = useState('home');
   const [scrolled, seScrolled ] =useState(false);
-
 
   // スクロールで背景色を表示
   useEffect(() => {
@@ -65,4 +63,6 @@ export const NavBar = () => {
       </Container>
     </Navbar>
   );
-}
+};
+
+export default NavBar;
