@@ -2,6 +2,7 @@
   display: inline-block;
   margin-left: 14px;
   }
+  
 .skills-icon p {
   width: 50px;
   height: 50px;
@@ -23,7 +24,7 @@
   background: #fff;
   border-radius: 64px;
   text-align: center;
-  padding: 60px 50px;
+  padding: 80px 50px;
   margin-top: -60px;
   border: 1px solid rgba(200, 200, 200, 0.5);
   width: 100%;
