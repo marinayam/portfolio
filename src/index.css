@@ -1,27 +1,78 @@
-/************ Custom Font ************/
-@font-face {
-  font-family: Centra;
-  src: url('./assets/CentraNo2-Bold.ttf');
-  font-weight: 700;
-}
-@font-face {
-  font-family: Centra;
-  src: url('./assets/CentraNo2-Medium.ttf');
-  font-weight: 500;
-}
-@font-face {
-  font-family: Centra;
-  src: url('./assets/CentraNo2-Book.ttf');
-  font-weight: 400;
-}
-
 :root {
-  --font-family: 'Centra', sans-serif;
-
-  --gradient-text: linear-gradient(90.21deg, rgba(106, 222, 18, 0.5) -5.91%, rgb(0, 97, 65) 111.58%);
-  --gradient-bar: linear-gradient(90.21deg, rgba(106, 222, 18, 0.5) -5.91%, rgb(0, 97, 65) 111.58%);
-  
-  --color-bg: #fff;
+  --font-family: 'Poppins', sans-serif;
+  --color-bg: #D4E9E2;
   --color-text: #121212;
   --color-subtext: #004E36;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+.black-gradient {
+  background: #000000; 
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); 
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); 
+}
+.green-text-gradient {
+  background: #11998e; 
+  background: -webkit-linear-gradient(
+    to top,
+    #11998e,
+    #38ef7d
+  ); 
+  background: linear-gradient(
+    to top,
+    #11998e,
+    #38ef7d
+  ); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.blue-text-gradient {
+  background: #56ccf2; 
+  background: -webkit-linear-gradient(
+    to top,
+    #2f80ed,
+    #56ccf2
+  );
+  background: linear-gradient(
+    to top,
+    #2f80ed,
+    #56ccf2
+  ); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pink-text-gradient {
+  background: #ec008c; 
+  background: -webkit-linear-gradient(
+    to top,
+    #ec008c,
+    #fc6767
+  ); 
+  background: linear-gradient(
+    to top,
+    #ec008c,
+    #fc6767
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
