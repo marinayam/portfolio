@@ -2,7 +2,7 @@ import React from 'react';
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap"
 import { ArrowRightCircle } from "react-bootstrap-icons"
-import headerImg from "../../assets/header-img.svg"
+import { headerImg } from "../../assets";
 import './header.css';
 
   const Header = () => {
