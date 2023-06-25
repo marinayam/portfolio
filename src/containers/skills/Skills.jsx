@@ -36,14 +36,14 @@ const Skills = () => {
   
   return (
   <section className="skill" id="skills">
-        <Container>
+    <Container>
       <Row>
         <Col lg>
-        <div className="skills__container">
-              {skills.map((skill, index) => (
-                <SkillCard key={`index-${index}`} index={index} {...skill} />
-              ))}
-            </div>
+          <div className="skills__container">
+            {skills.map((skill, index) => (
+              <SkillCard key={`index-${index}`} index={index} {...skill} />
+            ))}
+          </div>
         </Col>
       </Row>
     </Container>
