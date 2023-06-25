@@ -1,7 +1,8 @@
 import {
   codeSlash,
   layoutTextWindow,
-  logo
+  logo,
+  mTravel
 } from "../assets";
 
 const skills = [
@@ -83,26 +84,26 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "project2",
+    name: "mTravel",
     description:
-      "project2説明",
+      "仮想の旅行会社の静的コーポレートサイト。ユーザビリティーを保ちながら情報量を多く記載するためUI/UXデザイン設計を意識しました",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mangodb",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "UI/UX",
         color: "pink-text-gradient",
       },
     ],
-    image: logo,
-    source_code_link: "https://github.com/",
+    image: mTravel,
+    source_code_link: "https://github.com/marinayam/responsive_react",
+    demo_link:"https://marinayam.github.io/responsive_react",
   },
 ];
-
 export { skills, projects };

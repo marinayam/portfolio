@@ -4,6 +4,8 @@ import github from "./github.png";
 import githubIcon from "./github-icon.svg";
 import codeSlash from "./code-slash.svg";
 import layoutTextWindow from "./layout-text-window.svg";
+import mTravel from "./mTravel.png";
+
 
 export {
   logo,
@@ -12,4 +14,5 @@ export {
   githubIcon,
   codeSlash,
   layoutTextWindow,
+  mTravel,
 };

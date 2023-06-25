@@ -14,6 +14,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  demo_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -25,7 +26,9 @@ const ProjectCard = ({
         }}
         className='projects__projectCard-container'
       >
-      <div className='projects__projectCard-imgBox'>
+      <div 
+          onClick={() => window.open(demo_link, "_blank")}
+          className='projects__projectCard-imgBox'>
         <img
           src={image}
           alt='project_image'
