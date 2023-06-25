@@ -27,11 +27,11 @@ nav.navbar.scrolled {
 nav.navbar a.navbar-brand {
   width: 10%;
 }
-.container img{
+.navbar__container img{
   width: 120px;
 }
 @media(max-width: 768px){
-  .container img{
+  .navbar__container img{
     width: 100px;
   }
 }

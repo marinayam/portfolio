@@ -32,7 +32,7 @@ import './navbar.css';
   return (
     <Router>
       <Navbar expand="lg" className={scrolled ? 'scrolled' : ''} >
-        <Container>
+        <Container className='navbar__container'>
           <Navbar.Brand href="#home">
             <img src={logo} alt="Logo" />
           </Navbar.Brand>
