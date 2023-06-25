@@ -79,11 +79,8 @@ const Projects = () => {
               variants={fadeIn("", "", 0.1, 1)}
               className='projects__descr'
             >
-              Following projects showcases my skills and experience through
-              real-world examples of my Project. Each project is briefly described with
-              links to code repositories and live demos in it. It reflects my
-              ability to solve complex problems, Project with different technologies,
-              and manage projects effectively.
+              私のスキルを仮想プロジェクトを通して紹介しております<br></br>
+              各プロジェクトには簡単な説明とコードやライブデモへのリンクがあります。
             </motion.p>
           </div>
           <Col md>
