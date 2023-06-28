@@ -1,7 +1,7 @@
 import {
   codeSlash,
   layoutTextWindow,
-  logo,
+  onsen,
   mTravel
 } from "../assets";
 
@@ -63,9 +63,9 @@ const skills = [
 ];
 const projects = [
   {
-    name: "project1",
+    name: "Onsenアプリ",
     description:
-      "project1説明",
+      "海外旅行客向け自分が行った温泉について感想を投稿したり、検索できるアプリ",
     tags: [
       {
         name: "react",
@@ -80,8 +80,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: logo,
-    source_code_link: "https://github.com/",
+    image: onsen,
+    source_code_link: "https://github.com/marinayam/onsen",
   },
   {
     name: "mTravel",

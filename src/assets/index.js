@@ -5,6 +5,8 @@ import githubIcon from "./github-icon.svg";
 import codeSlash from "./code-slash.svg";
 import layoutTextWindow from "./layout-text-window.svg";
 import mTravel from "./mTravel.png";
+import onsen from "./onsen.png";
+
 
 
 export {
@@ -15,4 +17,5 @@ export {
   codeSlash,
   layoutTextWindow,
   mTravel,
+  onsen,
 };
